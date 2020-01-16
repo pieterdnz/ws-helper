@@ -241,7 +241,7 @@ function printLi(value) {
   }, 100);
 }
 function printButton(value, id) {
-  const container = document.getElementById("display-container");
+  const container = document.getElementById("main");
   const button = document.createElement("button");
   button.setAttribute("id", id);
   button.innerHTML = value;
