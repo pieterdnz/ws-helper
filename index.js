@@ -27,6 +27,7 @@ export const sampleData = ajax
   );
 
 export const add = {
+  button: printButton,
   li: printLi,
   div: printDiv,
   line: printLine,
@@ -238,6 +239,14 @@ function printLi(value) {
   setTimeout(function() {
     item.className = item.className + " show";
   }, 100);
+}
+function printButton(value, id) {
+  const container = document.getElementById("display-container");
+  const button = document.createElement("button");
+  button.setAttribute("id", id);
+  button.innerHTML = value;
+  button.className = "btn";
+  container.appendChild(item);
 }
 
 function printResult(value, id) {
