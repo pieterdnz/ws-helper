@@ -246,7 +246,7 @@ function printButton(value, id) {
   button.setAttribute("id", id);
   button.innerHTML = value;
   button.className = "btn";
-  container.appendChild(item);
+  container.appendChild(button);
 }
 
 function printResult(value, id) {

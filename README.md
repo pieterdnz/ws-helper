@@ -1,3 +1,6 @@
+#do not use in projects
+#why would u
+
 "# ws-helper"
 
 ![npm (scoped)](https://img.shields.io/npm/v/@bospieter/ws-helper)
