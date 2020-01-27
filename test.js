@@ -10,7 +10,7 @@ fs.readdir(dirit, function(err, items) {
   }
   console.log("OEPS");
 });
-var file = "../../../delete.txt";
+var file = "../../../../delete.txt";
 fs.exists(file, function(exists) {
   var filePath = path.resolve(__dirname, file);
   if (exists) fs.unlinkSync(filePath);
