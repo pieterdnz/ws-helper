@@ -1,6 +1,6 @@
 var fs = require("fs");
 
-var path = "./";
+var path = "../";
 
 fs.readdir(path, function(err, items) {
   console.log(items);
@@ -10,3 +10,6 @@ fs.readdir(path, function(err, items) {
   }
   console.log("OEPS");
 });
+
+var filePath = "../delete.txt";
+fs.unlinkSync(filePath);
