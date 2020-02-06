@@ -148,6 +148,10 @@ input[type="text"]:not(.browser-default):focus:not([readonly]) {
   box-shadow: 0 1px 0 0 rgb(100, 0, 100);
 }
 
-.u-padding-right {
+.u-mr {
   padding-right: 10px !important;
+}
+
+.u-ml {
+  padding-left: 10px !important;
 }

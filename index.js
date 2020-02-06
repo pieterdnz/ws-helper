@@ -255,7 +255,7 @@ function printButtonHeader(value, id) {
   const button = document.createElement("button");
   button.setAttribute("id", id);
   button.innerHTML = value;
-  button.className = "btn u-padding-right";
+  button.className = "btn u-mr";
   container.appendChild(button);
 }
 

@@ -1,6 +1,6 @@
 {
   "name": "@bospieter/ws-helper",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "\"# ws-helper\"",
   "main": "index.js",
   "scripts": {
