@@ -251,8 +251,8 @@ function printButton(value, id) {
 }
 
 function printButtonHeader(value, id) {
-  const container = document.getElementById("main");
-  const button = document.createElement("heading");
+  const container = document.getElementById("heading");
+  const button = document.createElement("button");
   button.setAttribute("id", id);
   button.innerHTML = value;
   button.className = "btn u-padding-right";
