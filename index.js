@@ -9,7 +9,7 @@ export const tiny = string => {
 
 export const initBody = title => {
   document.getElementById("app").innerHTML = ` 
-  <heading>${title}</heading>
+  <heading id="heading">${title}</heading>
   <main id="main">
   <section class="display-container">
     <ul id="display-list" class="collection"></ul>
@@ -28,6 +28,7 @@ export const sampleData = ajax
 
 export const add = {
   button: printButton,
+  buttonHeader: printButtonHeader,
   li: printLi,
   div: printDiv,
   line: printLine,
@@ -246,6 +247,15 @@ function printButton(value, id) {
   button.setAttribute("id", id);
   button.innerHTML = value;
   button.className = "btn";
+  container.appendChild(button);
+}
+
+function printButtonHeader(value, id) {
+  const container = document.getElementById("main");
+  const button = document.createElement("heading");
+  button.setAttribute("id", id);
+  button.innerHTML = value;
+  button.className = "btn u-padding-right";
   container.appendChild(button);
 }
 
